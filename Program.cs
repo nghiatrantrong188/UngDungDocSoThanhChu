@@ -48,31 +48,31 @@ namespace UngDungDocSoThanhChu
                 switch(so)
                 {
                     case 11:
-                        Console.WriteLine("Eleven"); 
+                        Console.WriteLine("eleven"); 
                         break; 
                     case 12:
-                        Console.WriteLine("Twelve");
+                        Console.WriteLine("twelve");
                         break;
                     case 13:
-                        Console.WriteLine("Thirteen");
+                        Console.WriteLine("thirteen");
                         break;
                     case 14:
-                        Console.WriteLine("Fourteen");
+                        Console.WriteLine("fourteen");
                         break;
                     case 15:
-                        Console.WriteLine("Fifteen");
+                        Console.WriteLine("fifteen");
                         break;
                     case 16:
-                        Console.WriteLine("Sixteen");
+                        Console.WriteLine("sixteen");
                         break;
                     case 17:
-                        Console.WriteLine("Seventeen");
+                        Console.WriteLine("seventeen");
                         break;
                     case 18:
-                        Console.WriteLine("Eighteen");
+                        Console.WriteLine("eighteen");
                         break;
                     case 19:
-                        Console.WriteLine("Nineteen");
+                        Console.WriteLine("nineteen");
                         break;        
                 }
             }
@@ -81,21 +81,21 @@ namespace UngDungDocSoThanhChu
                 int sohangchuc = so / 10;
                 int lay_sothu2_cuahangchuc = so % 10;
                 switch(sohangchuc){
-                    case 2: Console.Write("twenty-");
+                    case 2: Console.Write("Twenty-");
                     break;
-                    case 3: Console.Write("thirty-");
+                    case 3: Console.Write("Thirty-");
                     break;
-                    case 4: Console.Write("forty-");
+                    case 4: Console.Write("Forty-");
                     break;
-                    case 5: Console.Write("fifty-");
+                    case 5: Console.Write("Fifty-");
                     break;
-                    case 6: Console.Write("sixty-");
+                    case 6: Console.Write("Sixty-");
                     break;
-                    case 7: Console.Write("seventy-");
+                    case 7: Console.Write("Seventy-");
                     break;
-                    case 8: Console.Write("eighty-");
+                    case 8: Console.Write("Eighty-");
                     break;
-                    case 9: Console.Write("ninty-");
+                    case 9: Console.Write("Ninety-");
                     break;
                     }
                     if (lay_sothu2_cuahangchuc > 0)
@@ -130,61 +130,61 @@ namespace UngDungDocSoThanhChu
                 int layso_hangtram = so % 100;
                  switch(sohangtram)
                     {
-                    case 1: Console.Write("one hundred ");
+                    case 1: Console.Write("One hundred ");
                     break;
-                    case 2: Console.Write("two hundred ");
+                    case 2: Console.Write("Two hundred ");
                     break;
-                    case 3: Console.Write("three hundred ");
+                    case 3: Console.Write("Three hundred ");
                     break;
-                    case 4: Console.Write("four hundred ");
+                    case 4: Console.Write("Four hundred ");
                     break;
-                    case 5: Console.Write("five hundred ");
+                    case 5: Console.Write("Five hundred ");
                     break;
-                    case 6: Console.Write("six hundred ");
+                    case 6: Console.Write("Six hundred ");
                     break;
-                    case 7: Console.Write("seven hunderd ");
+                    case 7: Console.Write("Seven hunderd ");
                     break;
-                    case 8: Console.Write("eight hundred ");
+                    case 8: Console.Write("Eight hundred ");
                     break;
-                    case 9: Console.Write("nine hundred ");
+                    case 9: Console.Write("Nine hundred ");
                     break;
                     }
                     if (layso_hangtram > 0)
                     {
-                        Console.Write(" And ");
+                        Console.Write("and ");
                     if (layso_hangtram >= 1 && layso_hangtram <= 10)
                     {
                         switch (layso_hangtram)
                         {
                             case 1:
-                                Console.WriteLine("One");
+                                Console.WriteLine("one");
                                 break;
                             case 2:
-                                Console.WriteLine("Two");
+                                Console.WriteLine("two");
                                 break;
                             case 3:
-                                Console.WriteLine("Three");
+                                Console.WriteLine("three");
                                 break;
                             case 4:
-                                Console.WriteLine("Four");
+                                Console.WriteLine("four");
                                 break;
                             case 5:
-                                Console.WriteLine("Five");
+                                Console.WriteLine("five");
                                 break;
                             case 6:
-                                Console.WriteLine("Six");
+                                Console.WriteLine("six");
                                 break;
                             case 7:
-                                Console.WriteLine("Seven");
+                                Console.WriteLine("seven");
                                 break;
                             case 8:
-                                Console.WriteLine("Eight");
+                                Console.WriteLine("eight");
                                 break;
                             case 9:
-                                Console.WriteLine("Nine");
+                                Console.WriteLine("nine");
                                 break;
                             case 10:
-                                Console.WriteLine("Ten");
+                                Console.WriteLine("ten");
                                 break;
                         }
                     }
@@ -193,31 +193,31 @@ namespace UngDungDocSoThanhChu
                         switch (layso_hangtram)
                         {
                             case 11:
-                                Console.WriteLine("Eleven");
+                                Console.WriteLine("eleven");
                                 break;
                             case 12:
-                                Console.WriteLine("Twelve");
+                                Console.WriteLine("twelve");
                                 break;
                             case 13:
-                                Console.WriteLine("Thirteen");
+                                Console.WriteLine("thirteen");
                                 break;
                             case 14:
-                                Console.WriteLine("Fourteen");
+                                Console.WriteLine("fourteen");
                                 break;
                             case 15:
-                                Console.WriteLine("Fifteen");
+                                Console.WriteLine("fifteen");
                                 break;
                             case 16:
-                                Console.WriteLine("Sixteen");
+                                Console.WriteLine("sixteen");
                                 break;
                             case 17:
-                                Console.WriteLine("Seventeen");
+                                Console.WriteLine("seventeen");
                                 break;
                             case 18:
-                                Console.WriteLine("Eighteen");
+                                Console.WriteLine("eighteen");
                                 break;
                             case 19:
-                                Console.WriteLine("Nineteen");
+                                Console.WriteLine("nineteen");
                                 break;
                         }
                     }
@@ -261,34 +261,34 @@ namespace UngDungDocSoThanhChu
                                 switch (sohangdonvi_cuahangtram)
                                 {
                                     case 1:
-                                        Console.WriteLine("One");
+                                        Console.WriteLine("one");
                                         break;
                                     case 2:
-                                        Console.WriteLine("Two");
+                                        Console.WriteLine("two");
                                         break;
                                     case 3:
-                                        Console.WriteLine("Three");
+                                        Console.WriteLine("three");
                                         break;
                                     case 4:
-                                        Console.WriteLine("Four");
+                                        Console.WriteLine("four");
                                         break;
                                     case 5:
-                                        Console.WriteLine("Five");
+                                        Console.WriteLine("five");
                                         break;
                                     case 6:
-                                        Console.WriteLine("Six");
+                                        Console.WriteLine("six");
                                         break;
                                     case 7:
-                                        Console.WriteLine("Seven");
+                                        Console.WriteLine("seven");
                                         break;
                                     case 8:
-                                        Console.WriteLine("Eight");
+                                        Console.WriteLine("eight");
                                         break;
                                     case 9:
-                                        Console.WriteLine("Nine");
+                                        Console.WriteLine("nine");
                                         break;
                                     case 10:
-                                        Console.WriteLine("Ten");
+                                        Console.WriteLine("ten");
                                         break;
                                 }
                             }
