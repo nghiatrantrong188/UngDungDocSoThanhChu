@@ -229,33 +229,33 @@ namespace UngDungDocSoThanhChu
                         switch (sohangchuc_cuahangtram)
                         {
                             case 2:
-                                Console.Write("Twenty");
+                                Console.Write("twenty");
                                 break;
                             case 3:
-                                Console.Write("Thirty");
+                                Console.Write("thirty");
                                 break;
                             case 4:
-                                Console.Write("Forty");
+                                Console.Write("forty");
                                 break;
                             case 5:
-                                Console.Write("Fifty");
+                                Console.Write("fifty");
                                 break;
                             case 6:
-                                Console.Write("Sixty");
+                                Console.Write("sixty");
                                 break;
                             case 7:
-                                Console.Write("Seventy");
+                                Console.Write("seventy");
                                 break;
                             case 8:
-                                Console.Write("Eighty");
+                                Console.Write("eighty");
                                 break;
                             case 9:
-                                Console.Write("Ninety");
+                                Console.Write("ninety");
                                 break;
                         }
                         if (sohangdonvi_cuahangtram > 0)
                         {
-                            Console.Write("-");
+                            Console.Write(" ");
                             if (sohangdonvi_cuahangtram >= 1 && sohangdonvi_cuahangtram <= 10)
                             {
                                 switch (sohangdonvi_cuahangtram)
